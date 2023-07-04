@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: black;
+}
+
+h1{
+    font-size: 60px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    margin-left: 480px;
+}
+a{
+    font-size: 20px;
+}
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/334/911/non_2x/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(131, 131, 131);
+    background-blend-mode: soft-light;
+}
+.entrada {
+    margin-top: 300px;
+    text-align: center;
+}
