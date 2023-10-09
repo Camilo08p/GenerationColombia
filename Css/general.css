@@ -4,13 +4,15 @@
     text-decoration: none;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        user-select: none;
+        -webkit-user-select: none;
 }
 
 body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/003/334/911/non_2x/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+
     background-color: rgb(209, 209, 209);
     background-blend-mode: soft-light;
 }
@@ -18,7 +20,7 @@ body {
 h2,
 h3 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 p {
@@ -58,4 +60,22 @@ img{
     margin-top: 20px;
     display: grid;
     justify-content: center;
+}
+.cajaUsos{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+.pregunta{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.respuestaPregunta{
+    margin-bottom: 20px;
+}
+.fotos{
+    margin-top: 10px;
+    width: 250px;
 }
